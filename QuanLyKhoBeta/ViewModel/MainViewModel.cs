@@ -4,15 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace QuanLyKhoBeta.ViewModel
 {
     public class MainViewModel : BaseViewModel
     {
+        public bool Isloaded = false;
+        public ICommand LoadedWindowCommand { get; set; }
+
         // mọi thứ xử lý sẽ nằm trong này
         public MainViewModel()
         {
-            MessageBox.Show("Đã vào trong MainViewModel -> DataContext của mainwindow.xaml");
+            LoadedWindowCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
+                Isloaded = true;
+                LoginWindow loginWindow = new LoginWindow();
+                loginWindow.ShowDialog();
+            }
+              );
         }
     }
 }

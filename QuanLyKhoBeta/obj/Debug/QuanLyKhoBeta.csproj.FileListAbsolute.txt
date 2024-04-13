@@ -25,3 +25,5 @@ E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\QuanLyKho
 E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\QuanLyKhoBeta.pdb
 E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\ResourceXAML\MainResource.baml
 E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\LoginWindow.g.cs
+E:\Project\QuanLyKhoBeta\QuanLyKhoWithMaterial\QuanLyKhoBeta\obj\Debug\LoginWindow.baml
